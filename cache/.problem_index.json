@@ -1,0 +1,1247 @@
+{
+    "version": "1.0",
+    "last_scan": 1778750736.145592,
+    "count": 124,
+    "problems": [
+        {
+            "title": "Largest element",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p1.py",
+            "rel_path": "arrays\\easy\\p1.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777625102.9075184
+        },
+        {
+            "title": "Maximum Consecutive Ones",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p10.py",
+            "rel_path": "arrays\\easy\\p10.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777712955.8141568
+        },
+        {
+            "title": "Find number that appears once, and the other numbers twice",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p11.py",
+            "rel_path": "arrays\\easy\\p11.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777714820.982831
+        },
+        {
+            "title": "Longest subarray with given sum K(positives)",
+            "filename": "p12.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p12.py",
+            "rel_path": "arrays\\easy\\p12.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777737126.9560716
+        },
+        {
+            "title": "Length of the longest subarray with zero sum",
+            "filename": "p13.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p13.py",
+            "rel_path": "arrays\\easy\\p13.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777740215.6702573
+        },
+        {
+            "title": "Second largest",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p2.py",
+            "rel_path": "arrays\\easy\\p2.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777627122.3204465
+        },
+        {
+            "title": "Check if array is sorted",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p3.py",
+            "rel_path": "arrays\\easy\\p3.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777628062.55826
+        },
+        {
+            "title": "Remove duplicates from sorted array",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p4.py",
+            "rel_path": "arrays\\easy\\p4.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777631503.944958
+        },
+        {
+            "title": "Left or Right rotate the array by k times",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p5.py",
+            "rel_path": "arrays\\easy\\p5.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777632270.997835
+        },
+        {
+            "title": "Move zeros to end",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p6.py",
+            "rel_path": "arrays\\easy\\p6.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777637837.9283285
+        },
+        {
+            "title": "Linear search",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p7.py",
+            "rel_path": "arrays\\easy\\p7.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777656026.4045806
+        },
+        {
+            "title": "Union of two sorted arrays",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p8.py",
+            "rel_path": "arrays\\easy\\p8.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777701847.132972
+        },
+        {
+            "title": "Find missing number",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\easy\\p9.py",
+            "rel_path": "arrays\\easy\\p9.py",
+            "main_topic": "arrays",
+            "sub_topic": "easy",
+            "last_modified": 1777706789.0754242
+        },
+        {
+            "title": "Pascal's triangle",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p1.py",
+            "rel_path": "arrays\\hard\\p1.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778214197.4753757
+        },
+        {
+            "title": "Count inversions",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p10.py",
+            "rel_path": "arrays\\hard\\p10.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778470770.9488122
+        },
+        {
+            "title": "Count reverse pairs",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p11.py",
+            "rel_path": "arrays\\hard\\p11.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778435024.323028
+        },
+        {
+            "title": "Maximum product subarray in an array",
+            "filename": "p12.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p12.py",
+            "rel_path": "arrays\\hard\\p12.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778435717.0240023
+        },
+        {
+            "title": "Majority Element",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p2.py",
+            "rel_path": "arrays\\hard\\p2.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778689974.5611885
+        },
+        {
+            "title": "3 Sum: Find triplets that add up to a zero",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p3.py",
+            "rel_path": "arrays\\hard\\p3.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778250551.5647566
+        },
+        {
+            "title": "4 Sum | Find Quads that add up to a target value",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p4.py",
+            "rel_path": "arrays\\hard\\p4.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778406220.7008197
+        },
+        {
+            "title": "Largest subarray with sum 0",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p5.py",
+            "rel_path": "arrays\\hard\\p5.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778407140.5235322
+        },
+        {
+            "title": "Count subarrays with given xor k",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p6.py",
+            "rel_path": "arrays\\hard\\p6.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778408977.3275428
+        },
+        {
+            "title": "Merge overlapping sub-intervals",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p7.py",
+            "rel_path": "arrays\\hard\\p7.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778412321.3693676
+        },
+        {
+            "title": "Merge two sorted arrays without extra space",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p8.py",
+            "rel_path": "arrays\\hard\\p8.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778417315.556524
+        },
+        {
+            "title": "Find repeating and missing numbers - in [1, n] array",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\hard\\p9.py",
+            "rel_path": "arrays\\hard\\p9.py",
+            "main_topic": "arrays",
+            "sub_topic": "hard",
+            "last_modified": 1778428675.1154392
+        },
+        {
+            "title": "Two sum: Check if a pair with given sum exists in array",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p1.py",
+            "rel_path": "arrays\\medium\\p1.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1777886026.3136737
+        },
+        {
+            "title": "Longest consecutive sequence in an array",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p10.py",
+            "rel_path": "arrays\\medium\\p10.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778138487.519211
+        },
+        {
+            "title": "Set matrix zeroes",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p11.py",
+            "rel_path": "arrays\\medium\\p11.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778162235.2853205
+        },
+        {
+            "title": "Rotate n x n matrix by 90 degree",
+            "filename": "p12.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p12.py",
+            "rel_path": "arrays\\medium\\p12.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778167939.5325055
+        },
+        {
+            "title": "Print the matrix in spiral manner",
+            "filename": "p13.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p13.py",
+            "rel_path": "arrays\\medium\\p13.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778170049.1339614
+        },
+        {
+            "title": "Count subarray sum equals k",
+            "filename": "p14.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p14.py",
+            "rel_path": "arrays\\medium\\p14.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778173795.523713
+        },
+        {
+            "title": "Sort an array of 0s, 1s and 2s",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p2.py",
+            "rel_path": "arrays\\medium\\p2.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1777904382.0642455
+        },
+        {
+            "title": "Find the majority element that occurs more than N/2 times",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p3.py",
+            "rel_path": "arrays\\medium\\p3.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1777908603.796449
+        },
+        {
+            "title": "Kadane's algorithm: Maximum subarray sum in an array",
+            "filename": "p4_5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p4_5.py",
+            "rel_path": "arrays\\medium\\p4_5.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778085823.6520247
+        },
+        {
+            "title": "Stock buy and sell",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p6.py",
+            "rel_path": "arrays\\medium\\p6.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778086370.780903
+        },
+        {
+            "title": "Rearrange array elements by sign",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p7.py",
+            "rel_path": "arrays\\medium\\p7.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778120807.8492289
+        },
+        {
+            "title": "Next permutation: find next lexicographically greater permutation",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p8.py",
+            "rel_path": "arrays\\medium\\p8.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778126215.6061413
+        },
+        {
+            "title": "Leaders in an array",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\arrays\\medium\\p9.py",
+            "rel_path": "arrays\\medium\\p9.py",
+            "main_topic": "arrays",
+            "sub_topic": "medium",
+            "last_modified": 1778135582.7911456
+        },
+        {
+            "title": "Patterns",
+            "filename": "patterns.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\patterns.py",
+            "rel_path": "basics\\patterns.py",
+            "main_topic": "basics",
+            "sub_topic": "General",
+            "last_modified": 1778689708.0022733
+        },
+        {
+            "title": "Armstrong number",
+            "filename": "armstrong.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\armstrong.py",
+            "rel_path": "basics\\basic_math\\armstrong.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689393.6788137
+        },
+        {
+            "title": "Palindrome check",
+            "filename": "check_palindrome.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\check_palindrome.py",
+            "rel_path": "basics\\basic_math\\check_palindrome.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689405.9635105
+        },
+        {
+            "title": "Count digits",
+            "filename": "count_digits.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\count_digits.py",
+            "rel_path": "basics\\basic_math\\count_digits.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689414.585362
+        },
+        {
+            "title": "Divisors",
+            "filename": "divisors.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\divisors.py",
+            "rel_path": "basics\\basic_math\\divisors.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689424.0538454
+        },
+        {
+            "title": "gcd or hcf",
+            "filename": "gcd.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\gcd.py",
+            "rel_path": "basics\\basic_math\\gcd.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689433.64695
+        },
+        {
+            "title": "Prime numbers",
+            "filename": "prime.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\prime.py",
+            "rel_path": "basics\\basic_math\\prime.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689449.7085125
+        },
+        {
+            "title": "Reverse the number",
+            "filename": "reverse_num.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\basic_math\\reverse_num.py",
+            "rel_path": "basics\\basic_math\\reverse_num.py",
+            "main_topic": "basics",
+            "sub_topic": "basic_math",
+            "last_modified": 1778689459.5608048
+        },
+        {
+            "title": "ChainMap",
+            "filename": "chainmap.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\chainmap.py",
+            "rel_path": "basics\\collections\\chainmap.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767014100.657643
+        },
+        {
+            "title": "Counter",
+            "filename": "counter.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\counter.py",
+            "rel_path": "basics\\collections\\counter.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767015732.9260004
+        },
+        {
+            "title": "defaultdict",
+            "filename": "defaultdict.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\defaultdict.py",
+            "rel_path": "basics\\collections\\defaultdict.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767018755.2115548
+        },
+        {
+            "title": "deque",
+            "filename": "deque.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\deque.py",
+            "rel_path": "basics\\collections\\deque.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767018120.8033125
+        },
+        {
+            "title": "namedtuple",
+            "filename": "namedtuple.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\namedtuple.py",
+            "rel_path": "basics\\collections\\namedtuple.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767020545.527644
+        },
+        {
+            "title": "OrderedDict",
+            "filename": "ordereddict.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\ordereddict.py",
+            "rel_path": "basics\\collections\\ordereddict.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767081244.478087
+        },
+        {
+            "title": "UserDict",
+            "filename": "userdict.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\userdict.py",
+            "rel_path": "basics\\collections\\userdict.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767082056.4535694
+        },
+        {
+            "title": "UserList",
+            "filename": "userlist.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\userlist.py",
+            "rel_path": "basics\\collections\\userlist.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767082821.6102755
+        },
+        {
+            "title": "UserString",
+            "filename": "userstring.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\collections\\userstring.py",
+            "rel_path": "basics\\collections\\userstring.py",
+            "main_topic": "basics",
+            "sub_topic": "collections",
+            "last_modified": 1767083413.2139711
+        },
+        {
+            "title": "Frequency count",
+            "filename": "freq_count.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\hashing\\freq_count.py",
+            "rel_path": "basics\\hashing\\freq_count.py",
+            "main_topic": "basics",
+            "sub_topic": "hashing",
+            "last_modified": 1778689508.4066617
+        },
+        {
+            "title": "Highest and Lowest frequency",
+            "filename": "high_low_freq.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\hashing\\high_low_freq.py",
+            "rel_path": "basics\\hashing\\high_low_freq.py",
+            "main_topic": "basics",
+            "sub_topic": "hashing",
+            "last_modified": 1778689525.65664
+        },
+        {
+            "title": "Print 1 to n using recursion",
+            "filename": "r1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r1.py",
+            "rel_path": "basics\\recursion\\r1.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767107517.231229
+        },
+        {
+            "title": "Pring n to 1 using recursion",
+            "filename": "r2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r2.py",
+            "rel_path": "basics\\recursion\\r2.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767113852.5146637
+        },
+        {
+            "title": "Sum of first n numbers",
+            "filename": "r3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r3.py",
+            "rel_path": "basics\\recursion\\r3.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767159142.1573267
+        },
+        {
+            "title": "Factorial of n numbers",
+            "filename": "r4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r4.py",
+            "rel_path": "basics\\recursion\\r4.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767159289.4053586
+        },
+        {
+            "title": "reverse an array",
+            "filename": "r5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r5.py",
+            "rel_path": "basics\\recursion\\r5.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767159599.2299767
+        },
+        {
+            "title": "Check if string is palindrome or not",
+            "filename": "r6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r6.py",
+            "rel_path": "basics\\recursion\\r6.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767188657.7904694
+        },
+        {
+            "title": "Fibonacci number",
+            "filename": "r7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\recursion\\r7.py",
+            "rel_path": "basics\\recursion\\r7.py",
+            "main_topic": "basics",
+            "sub_topic": "recursion",
+            "last_modified": 1767189972.3794978
+        },
+        {
+            "title": "Arrays basics",
+            "filename": "array.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\array.py",
+            "rel_path": "basics\\starter\\array.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689588.8939328
+        },
+        {
+            "title": "Time complexity",
+            "filename": "complexity.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\complexity.py",
+            "rel_path": "basics\\starter\\complexity.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1766932987.3586998
+        },
+        {
+            "title": "Data types",
+            "filename": "data_types.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\data_types.py",
+            "rel_path": "basics\\starter\\data_types.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689604.5753684
+        },
+        {
+            "title": "For loop",
+            "filename": "for_loop.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\for_loop.py",
+            "rel_path": "basics\\starter\\for_loop.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689616.8172925
+        },
+        {
+            "title": "Functions",
+            "filename": "functions.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\functions.py",
+            "rel_path": "basics\\starter\\functions.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689628.9527876
+        },
+        {
+            "title": "If elif else",
+            "filename": "if_else.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\if_else.py",
+            "rel_path": "basics\\starter\\if_else.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689644.400607
+        },
+        {
+            "title": "match case",
+            "filename": "match_case.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\match_case.py",
+            "rel_path": "basics\\starter\\match_case.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689662.9900432
+        },
+        {
+            "title": "Input",
+            "filename": "user_input.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\user_input.py",
+            "rel_path": "basics\\starter\\user_input.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689673.6078167
+        },
+        {
+            "title": "While loops",
+            "filename": "while_loop.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\basics\\starter\\while_loop.py",
+            "rel_path": "basics\\starter\\while_loop.py",
+            "main_topic": "basics",
+            "sub_topic": "starter",
+            "last_modified": 1778689683.9922469
+        },
+        {
+            "title": "Search x in sorted array",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p1.py",
+            "rel_path": "bin_search\\bs_1d\\p1.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778469460.6600504
+        },
+        {
+            "title": "Find out how many times the array has benn rotated",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p10.py",
+            "rel_path": "bin_search\\bs_1d\\p10.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778555684.6874607
+        },
+        {
+            "title": "single element in a sorted array",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p11.py",
+            "rel_path": "bin_search\\bs_1d\\p11.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778557952.994665
+        },
+        {
+            "title": "Peak element in array",
+            "filename": "p12.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p12.py",
+            "rel_path": "bin_search\\bs_1d\\p12.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778559132.61798
+        },
+        {
+            "title": "Lower bound of x:",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p2.py",
+            "rel_path": "bin_search\\bs_1d\\p2.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778470421.108853
+        },
+        {
+            "title": "Upper bound of x",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p3.py",
+            "rel_path": "bin_search\\bs_1d\\p3.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778471443.5664382
+        },
+        {
+            "title": "Search insert position",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p4.py",
+            "rel_path": "bin_search\\bs_1d\\p4.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778472831.1089005
+        },
+        {
+            "title": "Floor and ceil in sorted array",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p5.py",
+            "rel_path": "bin_search\\bs_1d\\p5.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778473812.9111128
+        },
+        {
+            "title": "First and last occurence",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p6.py",
+            "rel_path": "bin_search\\bs_1d\\p6.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778486308.3278618
+        },
+        {
+            "title": "Count occurences in sorted array",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p7.py",
+            "rel_path": "bin_search\\bs_1d\\p7.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778487964.672562
+        },
+        {
+            "title": "Search element in a rotated sorted array - I",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p8.py",
+            "rel_path": "bin_search\\bs_1d\\p8.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778518824.0326836
+        },
+        {
+            "title": "Search element in rotated sorted array II - duplicates",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_1d\\p9.py",
+            "rel_path": "bin_search\\bs_1d\\p9.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_1d",
+            "last_modified": 1778518781.251169
+        },
+        {
+            "title": "Find the row with the maximum number of 1's",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_2d\\p1.py",
+            "rel_path": "bin_search\\bs_2d\\p1.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_2d",
+            "last_modified": 1778661187.868464
+        },
+        {
+            "title": "Search in sorted 2D matrix",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_2d\\p2.py",
+            "rel_path": "bin_search\\bs_2d\\p2.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_2d",
+            "last_modified": 1778679840.643478
+        },
+        {
+            "title": "Search in row and column wise sorted matrix: return the index of the target",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_2d\\p3.py",
+            "rel_path": "bin_search\\bs_2d\\p3.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_2d",
+            "last_modified": 1778680182.7123551
+        },
+        {
+            "title": "Find peak element - II (2 adjacent cells are not same)",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_2d\\p4.py",
+            "rel_path": "bin_search\\bs_2d\\p4.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_2d",
+            "last_modified": 1778682328.7874377
+        },
+        {
+            "title": "Median of row wise sorted matrix",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_2d\\p5.py",
+            "rel_path": "bin_search\\bs_2d\\p5.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_2d",
+            "last_modified": 1778688559.6879175
+        },
+        {
+            "title": "Finding sqrt of a number in binary search",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p1.py",
+            "rel_path": "bin_search\\bs_on_ans\\p1.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778560497.021971
+        },
+        {
+            "title": "Split array - largest sum",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p10.py",
+            "rel_path": "bin_search\\bs_on_ans\\p10.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778600683.4487865
+        },
+        {
+            "title": "Painter's partition",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p11.py",
+            "rel_path": "bin_search\\bs_on_ans\\p11.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778601214.996537
+        },
+        {
+            "title": "Minimise maximum distance between gas stations",
+            "filename": "p12.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p12.py",
+            "rel_path": "bin_search\\bs_on_ans\\p12.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778604368.78348
+        },
+        {
+            "title": "Median of 2 sorted arrays",
+            "filename": "p13.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p13.py",
+            "rel_path": "bin_search\\bs_on_ans\\p13.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778643049.98908
+        },
+        {
+            "title": "K-th element of two sorted arrays",
+            "filename": "p14.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p14.py",
+            "rel_path": "bin_search\\bs_on_ans\\p14.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778658464.9042091
+        },
+        {
+            "title": "Nth root of a number using binary search",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p2.py",
+            "rel_path": "bin_search\\bs_on_ans\\p2.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778563322.8746219
+        },
+        {
+            "title": "Koko eating bananas",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p3.py",
+            "rel_path": "bin_search\\bs_on_ans\\p3.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778564440.6390567
+        },
+        {
+            "title": "Minimum days to make M bouquets",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p4.py",
+            "rel_path": "bin_search\\bs_on_ans\\p4.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778567339.832
+        },
+        {
+            "title": "Find smallest divisor given a threshold",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p5.py",
+            "rel_path": "bin_search\\bs_on_ans\\p5.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778569583.0843897
+        },
+        {
+            "title": "Capacity to ship packages withing d days",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p6.py",
+            "rel_path": "bin_search\\bs_on_ans\\p6.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778574699.5553472
+        },
+        {
+            "title": "Kth missing positive number",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p7.py",
+            "rel_path": "bin_search\\bs_on_ans\\p7.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778588709.8749177
+        },
+        {
+            "title": "aggressive cows",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p8.py",
+            "rel_path": "bin_search\\bs_on_ans\\p8.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778593737.281827
+        },
+        {
+            "title": "Allocate minimum number of pages",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bin_search\\bs_on_ans\\p9.py",
+            "rel_path": "bin_search\\bs_on_ans\\p9.py",
+            "main_topic": "bin_search",
+            "sub_topic": "bs_on_ans",
+            "last_modified": 1778595563.8571408
+        },
+        {
+            "title": "from ui.app import DSAManagerApp",
+            "filename": "main.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\main.py",
+            "rel_path": "DSA_Manager\\main.py",
+            "main_topic": "DSA_Manager",
+            "sub_topic": "General",
+            "last_modified": 1778750637.5167553
+        },
+        {
+            "title": "import json",
+            "filename": "indexer.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\indexer.py",
+            "rel_path": "DSA_Manager\\core\\indexer.py",
+            "main_topic": "DSA_Manager",
+            "sub_topic": "core",
+            "last_modified": 1778750463.0352044
+        },
+        {
+            "title": "from dataclasses import dataclass, asdict",
+            "filename": "models.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\models.py",
+            "rel_path": "DSA_Manager\\core\\models.py",
+            "main_topic": "DSA_Manager",
+            "sub_topic": "core",
+            "last_modified": 1778750385.801726
+        },
+        {
+            "title": "import os",
+            "filename": "scanner.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\scanner.py",
+            "rel_path": "DSA_Manager\\core\\scanner.py",
+            "main_topic": "DSA_Manager",
+            "sub_topic": "core",
+            "last_modified": 1778750407.4337914
+        },
+        {
+            "title": "import re",
+            "filename": "search.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\search.py",
+            "rel_path": "DSA_Manager\\core\\search.py",
+            "main_topic": "DSA_Manager",
+            "sub_topic": "core",
+            "last_modified": 1778750471.2746189
+        },
+        {
+            "title": "import subprocess",
+            "filename": "app.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\ui\\app.py",
+            "rel_path": "DSA_Manager\\ui\\app.py",
+            "main_topic": "DSA_Manager",
+            "sub_topic": "ui",
+            "last_modified": 1778750616.761478
+        },
+        {
+            "title": "Bubble sort",
+            "filename": "bubble_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\bubble_sort.py",
+            "rel_path": "sorting\\bubble_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1778689340.2320411
+        },
+        {
+            "title": "Insertion sort",
+            "filename": "insertion_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\insertion_sort.py",
+            "rel_path": "sorting\\insertion_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1778689354.004834
+        },
+        {
+            "title": "Merge sort",
+            "filename": "meg_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\meg_sort.py",
+            "rel_path": "sorting\\meg_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1778689361.3627994
+        },
+        {
+            "title": "Selection sort",
+            "filename": "selection_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\selection_sort.py",
+            "rel_path": "sorting\\selection_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1778689372.037506
+        },
+        {
+            "title": "Remove Outermost parentheses",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p1.py",
+            "rel_path": "strings\\easy\\p1.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778692889.0294013
+        },
+        {
+            "title": "Reverse words in a string",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p2.py",
+            "rel_path": "strings\\easy\\p2.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778729572.2647793
+        },
+        {
+            "title": "Largest odd number in a string",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p3.py",
+            "rel_path": "strings\\easy\\p3.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778731841.2939253
+        },
+        {
+            "title": "Longest Common Prefix",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p4.py",
+            "rel_path": "strings\\easy\\p4.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778736234.5837512
+        },
+        {
+            "title": "Isomorphic string",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p5.py",
+            "rel_path": "strings\\easy\\p5.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778739584.4228487
+        },
+        {
+            "title": "Check if one string is rotation of another",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p6.py",
+            "rel_path": "strings\\easy\\p6.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778744157.9673874
+        },
+        {
+            "title": "Check if two strings are anagrams of each other",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\easy\\p7.py",
+            "rel_path": "strings\\easy\\p7.py",
+            "main_topic": "strings",
+            "sub_topic": "easy",
+            "last_modified": 1778744528.4590068
+        },
+        {
+            "title": "Sort characters by frequency",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p1.py",
+            "rel_path": "strings\\medium\\p1.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778747322.0951989
+        },
+        {
+            "title": "Maximum nesting depth of parenthesis",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p2.py",
+            "rel_path": "strings\\medium\\p2.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778748462.1693912
+        },
+        {
+            "title": "Roman numerals to integer",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p3.py",
+            "rel_path": "strings\\medium\\p3.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778750722.2711096
+        }
+    ]
+}
