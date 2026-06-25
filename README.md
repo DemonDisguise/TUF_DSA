@@ -25,3 +25,7 @@ Z algorithm - prefix matching problems
 - Use dummy when:
     - deleting nodes, merging lists, returning new head
     - it helps avoid head edge cases
+
+# Two pointers
+- at least K = total substrings - at most (K-1)
+- no. of substrings equal to k = atmost(k) - atmost(k - 1)

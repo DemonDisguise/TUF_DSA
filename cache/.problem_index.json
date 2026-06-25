@@ -1,7 +1,7 @@
 {
     "version": "1.0",
-    "last_scan": 1778750736.145592,
-    "count": 124,
+    "last_scan": 1782387288.5412617,
+    "count": 245,
     "problems": [
         {
             "title": "Largest element",
@@ -391,7 +391,7 @@
             "rel_path": "basics\\patterns.py",
             "main_topic": "basics",
             "sub_topic": "General",
-            "last_modified": 1778689708.0022733
+            "last_modified": 1778909904.0172763
         },
         {
             "title": "Armstrong number",
@@ -621,7 +621,7 @@
             "rel_path": "basics\\recursion\\r5.py",
             "main_topic": "basics",
             "sub_topic": "recursion",
-            "last_modified": 1767159599.2299767
+            "last_modified": 1779332888.8122897
         },
         {
             "title": "Check if string is palindrome or not",
@@ -641,7 +641,7 @@
             "rel_path": "basics\\recursion\\r7.py",
             "main_topic": "basics",
             "sub_topic": "recursion",
-            "last_modified": 1767189972.3794978
+            "last_modified": 1779333261.6477017
         },
         {
             "title": "Arrays basics",
@@ -1044,64 +1044,784 @@
             "last_modified": 1778595563.8571408
         },
         {
-            "title": "from ui.app import DSAManagerApp",
-            "filename": "main.py",
+            "title": "Utility tools for bit manipulation",
+            "filename": "bit.py",
             "extension": ".py",
-            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\main.py",
-            "rel_path": "DSA_Manager\\main.py",
-            "main_topic": "DSA_Manager",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\bit.py",
+            "rel_path": "bit_manipulation\\bit.py",
+            "main_topic": "bit_manipulation",
             "sub_topic": "General",
-            "last_modified": 1778750637.5167553
+            "last_modified": 1780932118.8572414
         },
         {
-            "title": "import json",
-            "filename": "indexer.py",
+            "title": "Integer to binary",
+            "filename": "p1.py",
             "extension": ".py",
-            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\indexer.py",
-            "rel_path": "DSA_Manager\\core\\indexer.py",
-            "main_topic": "DSA_Manager",
-            "sub_topic": "core",
-            "last_modified": 1778750463.0352044
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p1.py",
+            "rel_path": "bit_manipulation\\basics\\p1.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780810055.124617
         },
         {
-            "title": "from dataclasses import dataclass, asdict",
-            "filename": "models.py",
+            "title": "Remove ith bit",
+            "filename": "p10.py",
             "extension": ".py",
-            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\models.py",
-            "rel_path": "DSA_Manager\\core\\models.py",
-            "main_topic": "DSA_Manager",
-            "sub_topic": "core",
-            "last_modified": 1778750385.801726
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p10.py",
+            "rel_path": "bit_manipulation\\basics\\p10.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780896489.665519
         },
         {
-            "title": "import os",
-            "filename": "scanner.py",
+            "title": "Extract the ith bit",
+            "filename": "p11.py",
             "extension": ".py",
-            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\scanner.py",
-            "rel_path": "DSA_Manager\\core\\scanner.py",
-            "main_topic": "DSA_Manager",
-            "sub_topic": "core",
-            "last_modified": 1778750407.4337914
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p11.py",
+            "rel_path": "bit_manipulation\\basics\\p11.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780905272.135319
         },
         {
-            "title": "import re",
-            "filename": "search.py",
+            "title": "Check if the number is odd or not",
+            "filename": "p12.py",
             "extension": ".py",
-            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\core\\search.py",
-            "rel_path": "DSA_Manager\\core\\search.py",
-            "main_topic": "DSA_Manager",
-            "sub_topic": "core",
-            "last_modified": 1778750471.2746189
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p12.py",
+            "rel_path": "bit_manipulation\\basics\\p12.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780905369.0773985
         },
         {
-            "title": "import subprocess",
-            "filename": "app.py",
+            "title": "Check if a number is power of 2 or not",
+            "filename": "p13.py",
             "extension": ".py",
-            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\DSA_Manager\\ui\\app.py",
-            "rel_path": "DSA_Manager\\ui\\app.py",
-            "main_topic": "DSA_Manager",
-            "sub_topic": "ui",
-            "last_modified": 1778750616.761478
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p13.py",
+            "rel_path": "bit_manipulation\\basics\\p13.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780907855.0879407
+        },
+        {
+            "title": "Count the nubmer of set bits",
+            "filename": "p14.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p14.py",
+            "rel_path": "bit_manipulation\\basics\\p14.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780909205.3160162
+        },
+        {
+            "title": "Divide two numbers without multiplication and division",
+            "filename": "p15.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p15.py",
+            "rel_path": "bit_manipulation\\basics\\p15.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780921759.1543567
+        },
+        {
+            "title": "Binary to integer",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p2.py",
+            "rel_path": "bit_manipulation\\basics\\p2.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780810966.7054162
+        },
+        {
+            "title": "1'S COMPLEMENT AND 2'S COMPLEMENT",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p3.py",
+            "rel_path": "bit_manipulation\\basics\\p3.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780812876.044174
+        },
+        {
+            "title": "Binary operators",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p4.py",
+            "rel_path": "bit_manipulation\\basics\\p4.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780848229.0555308
+        },
+        {
+            "title": "Check if the i-th bit is set or not",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p5.py",
+            "rel_path": "bit_manipulation\\basics\\p5.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780847824.7096
+        },
+        {
+            "title": "Swap two numbers",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p6.py",
+            "rel_path": "bit_manipulation\\basics\\p6.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780839690.563582
+        },
+        {
+            "title": "Set or unset the rightmost bit",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p7.py",
+            "rel_path": "bit_manipulation\\basics\\p7.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780846665.1082444
+        },
+        {
+            "title": "Toggle the ith bit",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p8.py",
+            "rel_path": "bit_manipulation\\basics\\p8.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780848074.234233
+        },
+        {
+            "title": "Clear the ith bit",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\basics\\p9.py",
+            "rel_path": "bit_manipulation\\basics\\p9.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "basics",
+            "last_modified": 1780888997.9728594
+        },
+        {
+            "title": "Minimum bit flips to convert number",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\interview\\p1.py",
+            "rel_path": "bit_manipulation\\interview\\p1.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "interview",
+            "last_modified": 1780932900.709585
+        },
+        {
+            "title": "Find number that appears once and other numbers twice",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\interview\\p2.py",
+            "rel_path": "bit_manipulation\\interview\\p2.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "interview",
+            "last_modified": 1780968866.8214653
+        },
+        {
+            "title": "Power set | Bit manipulation",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\interview\\p3.py",
+            "rel_path": "bit_manipulation\\interview\\p3.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "interview",
+            "last_modified": 1780971257.0311213
+        },
+        {
+            "title": "Find XOR of numbers from L to R",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\interview\\p4.py",
+            "rel_path": "bit_manipulation\\interview\\p4.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "interview",
+            "last_modified": 1780974036.592522
+        },
+        {
+            "title": "Find the two numbers appearing odd number of times",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\bit_manipulation\\interview\\p5.py",
+            "rel_path": "bit_manipulation\\interview\\p5.py",
+            "main_topic": "bit_manipulation",
+            "sub_topic": "interview",
+            "last_modified": 1780975739.980828
+        },
+        {
+            "title": "Doubly Linked List",
+            "filename": "dll.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\dll.py",
+            "rel_path": "lnkd_lst\\dll.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "General",
+            "last_modified": 1779268336.8180895
+        },
+        {
+            "title": "Single Linked List",
+            "filename": "ll.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\ll.py",
+            "rel_path": "lnkd_lst\\ll.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "General",
+            "last_modified": 1779266948.1147838
+        },
+        {
+            "title": "Multi-level single linked list",
+            "filename": "mll.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\mll.py",
+            "rel_path": "lnkd_lst\\mll.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "General",
+            "last_modified": 1779247866.9596162
+        },
+        {
+            "title": "Reverse Linked List in groups of size k",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\hard\\ll\\p1.py",
+            "rel_path": "lnkd_lst\\hard\\ll\\p1.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "hard",
+            "last_modified": 1779177017.901538
+        },
+        {
+            "title": "Rotate a linked list k times",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\hard\\ll\\p2.py",
+            "rel_path": "lnkd_lst\\hard\\ll\\p2.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "hard",
+            "last_modified": 1779198688.3047636
+        },
+        {
+            "title": "Flattening a Linked List",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\hard\\ll\\p3.py",
+            "rel_path": "lnkd_lst\\hard\\ll\\p3.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "hard",
+            "last_modified": 1779207890.766434
+        },
+        {
+            "title": "import ast",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\hard\\ll\\p4.py",
+            "rel_path": "lnkd_lst\\hard\\ll\\p4.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "hard",
+            "last_modified": 1779262911.7372334
+        },
+        {
+            "title": "Reverse a Doubly Linked list",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\dll\\p1.py",
+            "rel_path": "lnkd_lst\\medium\\dll\\p1.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779281665.4426477
+        },
+        {
+            "title": "Find pairs with given sum in doubly linked list",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\dll\\p2.py",
+            "rel_path": "lnkd_lst\\medium\\dll\\p2.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779285611.84107
+        },
+        {
+            "title": "Remove duplicates from sorted DLL",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\dll\\p3.py",
+            "rel_path": "lnkd_lst\\medium\\dll\\p3.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779294005.7949378
+        },
+        {
+            "title": "Middle of the linked list",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p1.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p1.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779026267.4954984
+        },
+        {
+            "title": "Delete the middle node of the linked list",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p10.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p10.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779091462.0491288
+        },
+        {
+            "title": "Sort a linked list",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p11.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p11.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779111329.738452
+        },
+        {
+            "title": "Sort a linked list of 0's 1's and 2's",
+            "filename": "p12.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p12.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p12.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779119467.0758634
+        },
+        {
+            "title": "Find intersection of two linked lists",
+            "filename": "p13.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p13.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p13.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779124786.455876
+        },
+        {
+            "title": "Add 1 to a number represented by LL",
+            "filename": "p14.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p14.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p14.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779127724.4162972
+        },
+        {
+            "title": "Add two numbers represented as Linked Lists in reverse",
+            "filename": "p15.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p15.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p15.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779163538.6038196
+        },
+        {
+            "title": "Reverse a linked list",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p2.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p2.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779017904.2343092
+        },
+        {
+            "title": "Reverse a linked list - recursive",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p3.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p3.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779023968.372184
+        },
+        {
+            "title": "Detect a cycle in a linked list",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p4.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p4.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779026151.3158386
+        },
+        {
+            "title": "Starting point of loop in linked list",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p5.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p5.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779026746.7304933
+        },
+        {
+            "title": "Length of loop in Linked List",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p6.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p6.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779027523.1867802
+        },
+        {
+            "title": "Check if the given linked list is palindrome",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p7.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p7.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779076146.8579848
+        },
+        {
+            "title": "Segregate even and odd nodes in linked list",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p8.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p8.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779078719.4500833
+        },
+        {
+            "title": "Remove the nth node from the back of the ll",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\lnkd_lst\\medium\\ll\\p9.py",
+            "rel_path": "lnkd_lst\\medium\\ll\\p9.py",
+            "main_topic": "lnkd_lst",
+            "sub_topic": "medium",
+            "last_modified": 1779090843.1644938
+        },
+        {
+            "title": "Print divisors of a number",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\math\\p1.py",
+            "rel_path": "math\\p1.py",
+            "main_topic": "math",
+            "sub_topic": "General",
+            "last_modified": 1781018722.4415693
+        },
+        {
+            "title": "Prime Factors of a number",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\math\\p2.py",
+            "rel_path": "math\\p2.py",
+            "main_topic": "math",
+            "sub_topic": "General",
+            "last_modified": 1781098326.3459244
+        },
+        {
+            "title": "Power exponentiation",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\math\\p3.py",
+            "rel_path": "math\\p3.py",
+            "main_topic": "math",
+            "sub_topic": "General",
+            "last_modified": 1781099894.35279
+        },
+        {
+            "title": "Sieve of eratosthenes - print all primes till n",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\math\\p4.py",
+            "rel_path": "math\\p4.py",
+            "main_topic": "math",
+            "sub_topic": "General",
+            "last_modified": 1781105620.120251
+        },
+        {
+            "title": "Count prime in range L-R",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\math\\p5.py",
+            "rel_path": "math\\p5.py",
+            "main_topic": "math",
+            "sub_topic": "General",
+            "last_modified": 1781106357.0743601
+        },
+        {
+            "title": "Recursive implementation of atoi()",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\basics\\p1.py",
+            "rel_path": "recursion\\basics\\p1.py",
+            "main_topic": "recursion",
+            "sub_topic": "basics",
+            "last_modified": 1779350323.4406
+        },
+        {
+            "title": "Print all subsequences",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\basics\\p2.py",
+            "rel_path": "recursion\\basics\\p2.py",
+            "main_topic": "recursion",
+            "sub_topic": "basics",
+            "last_modified": 1779337636.8325942
+        },
+        {
+            "title": "Implement Pow(x, n)",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\basics\\p3.py",
+            "rel_path": "recursion\\basics\\p3.py",
+            "main_topic": "recursion",
+            "sub_topic": "basics",
+            "last_modified": 1779430596.7003865
+        },
+        {
+            "title": "Count Good Numbers",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\basics\\p4.py",
+            "rel_path": "recursion\\basics\\p4.py",
+            "main_topic": "recursion",
+            "sub_topic": "basics",
+            "last_modified": 1779556090.4918227
+        },
+        {
+            "title": "Sort a stack",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\basics\\p5.py",
+            "rel_path": "recursion\\basics\\p5.py",
+            "main_topic": "recursion",
+            "sub_topic": "basics",
+            "last_modified": 1779715138.0911982
+        },
+        {
+            "title": "Reverse a stack",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\basics\\p6.py",
+            "rel_path": "recursion\\basics\\p6.py",
+            "main_topic": "recursion",
+            "sub_topic": "basics",
+            "last_modified": 1779715710.6809144
+        },
+        {
+            "title": "Print all permutations of a array",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p1.py",
+            "rel_path": "recursion\\hard\\p1.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780249819.234785
+        },
+        {
+            "title": "Expression Add Operators",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p10.py",
+            "rel_path": "recursion\\hard\\p10.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780767543.428238
+        },
+        {
+            "title": "Palindrome partitioning",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p2.py",
+            "rel_path": "recursion\\hard\\p2.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780287275.6457994
+        },
+        {
+            "title": "Kth permutation sequence",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p3.py",
+            "rel_path": "recursion\\hard\\p3.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780289831.1441257
+        },
+        {
+            "title": "Word Search",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p4.py",
+            "rel_path": "recursion\\hard\\p4.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780300913.186392
+        },
+        {
+            "title": "N Queens problem",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p5.py",
+            "rel_path": "recursion\\hard\\p5.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780671590.8767793
+        },
+        {
+            "title": "Rat in a maze",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p6.py",
+            "rel_path": "recursion\\hard\\p6.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780678125.6693714
+        },
+        {
+            "title": "Word break",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p7.py",
+            "rel_path": "recursion\\hard\\p7.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780717142.0861013
+        },
+        {
+            "title": "M Coloring Problem",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p8.py",
+            "rel_path": "recursion\\hard\\p8.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780759577.3067305
+        },
+        {
+            "title": "Sudoku Solver",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\hard\\p9.py",
+            "rel_path": "recursion\\hard\\p9.py",
+            "main_topic": "recursion",
+            "sub_topic": "hard",
+            "last_modified": 1780765087.9003155
+        },
+        {
+            "title": "Generate all binary strings of length n that do not contain consecutive 1s",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p1.py",
+            "rel_path": "recursion\\subsequences\\p1.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779717195.5339081
+        },
+        {
+            "title": "Combination Sum III",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p10.py",
+            "rel_path": "recursion\\subsequences\\p10.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1780232680.0577524
+        },
+        {
+            "title": "Letter Combinations of a Phone Number",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p11.py",
+            "rel_path": "recursion\\subsequences\\p11.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1780242755.5320523
+        },
+        {
+            "title": "Generate Paranthesis",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p2.py",
+            "rel_path": "recursion\\subsequences\\p2.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779721536.965574
+        },
+        {
+            "title": "Power set: all possible subsequences",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p3.py",
+            "rel_path": "recursion\\subsequences\\p3.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779732987.2841492
+        },
+        {
+            "title": "Printing subsequences whose sum is k",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p4.py",
+            "rel_path": "recursion\\subsequences\\p4.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779766830.6384244
+        },
+        {
+            "title": "Check if there exists a subsequence with sum K",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p5.py",
+            "rel_path": "recursion\\subsequences\\p5.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779767383.5409663
+        },
+        {
+            "title": "Combination Sum - 1",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p6.py",
+            "rel_path": "recursion\\subsequences\\p6.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779898806.7224126
+        },
+        {
+            "title": "Combination sum II",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p7.py",
+            "rel_path": "recursion\\subsequences\\p7.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1779907564.467049
+        },
+        {
+            "title": "Subset Sum: Sum of all subsets",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p8.py",
+            "rel_path": "recursion\\subsequences\\p8.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1780075908.3501537
+        },
+        {
+            "title": "Subset - II",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\recursion\\subsequences\\p9.py",
+            "rel_path": "recursion\\subsequences\\p9.py",
+            "main_topic": "recursion",
+            "sub_topic": "subsequences",
+            "last_modified": 1780078519.7802045
         },
         {
             "title": "Bubble sort",
@@ -1134,6 +1854,36 @@
             "last_modified": 1778689361.3627994
         },
         {
+            "title": "Quick sort",
+            "filename": "quick_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\quick_sort.py",
+            "rel_path": "sorting\\quick_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1779294426.9597697
+        },
+        {
+            "title": "Recursive Bubble Sort",
+            "filename": "recur_bubble_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\recur_bubble_sort.py",
+            "rel_path": "sorting\\recur_bubble_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1779294491.9335425
+        },
+        {
+            "title": "Recursive Insertion Sort",
+            "filename": "recur_insertion_sort.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\sorting\\recur_insertion_sort.py",
+            "rel_path": "sorting\\recur_insertion_sort.py",
+            "main_topic": "sorting",
+            "sub_topic": "General",
+            "last_modified": 1779294518.1070173
+        },
+        {
             "title": "Selection sort",
             "filename": "selection_sort.py",
             "extension": ".py",
@@ -1142,6 +1892,306 @@
             "main_topic": "sorting",
             "sub_topic": "General",
             "last_modified": 1778689372.037506
+        },
+        {
+            "title": "Infix to Postfix",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\expr_conv\\p1.py",
+            "rel_path": "stack_n_queue\\expr_conv\\p1.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "expr_conv",
+            "last_modified": 1781370172.9797714
+        },
+        {
+            "title": "Infix to prefix",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\expr_conv\\p2.py",
+            "rel_path": "stack_n_queue\\expr_conv\\p2.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "expr_conv",
+            "last_modified": 1781420393.2798655
+        },
+        {
+            "title": "Prefix to Infix",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\expr_conv\\p3.py",
+            "rel_path": "stack_n_queue\\expr_conv\\p3.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "expr_conv",
+            "last_modified": 1781447101.9390097
+        },
+        {
+            "title": "Prefix to Postfix",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\expr_conv\\p4.py",
+            "rel_path": "stack_n_queue\\expr_conv\\p4.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "expr_conv",
+            "last_modified": 1781447135.5005538
+        },
+        {
+            "title": "Postfix to Infix",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\expr_conv\\p5.py",
+            "rel_path": "stack_n_queue\\expr_conv\\p5.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "expr_conv",
+            "last_modified": 1781447562.928959
+        },
+        {
+            "title": "Postfix to Prefix",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\expr_conv\\p6.py",
+            "rel_path": "stack_n_queue\\expr_conv\\p6.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "expr_conv",
+            "last_modified": 1781447747.9397254
+        },
+        {
+            "title": "Sliding Window Maximum",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\impl_problems\\p1.py",
+            "rel_path": "stack_n_queue\\impl_problems\\p1.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "impl_problems",
+            "last_modified": 1782310454.1941764
+        },
+        {
+            "title": "Stock span problem",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\impl_problems\\p2.py",
+            "rel_path": "stack_n_queue\\impl_problems\\p2.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "impl_problems",
+            "last_modified": 1782320365.488413
+        },
+        {
+            "title": "Celebrity problem",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\impl_problems\\p3.py",
+            "rel_path": "stack_n_queue\\impl_problems\\p3.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "impl_problems",
+            "last_modified": 1782326054.4034922
+        },
+        {
+            "title": "Least Recently Used (LRU) cache",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\impl_problems\\p4.py",
+            "rel_path": "stack_n_queue\\impl_problems\\p4.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "impl_problems",
+            "last_modified": 1782360462.2979932
+        },
+        {
+            "title": "LFU Cache",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\impl_problems\\p5.py",
+            "rel_path": "stack_n_queue\\impl_problems\\p5.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "impl_problems",
+            "last_modified": 1782372149.7169244
+        },
+        {
+            "title": "Next Greater Element",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p1.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p1.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781450026.369094
+        },
+        {
+            "title": "Area of largest rectangle in Histogram",
+            "filename": "p10.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p10.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p10.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1782215947.0482585
+        },
+        {
+            "title": "Maximal Rectangles (Stack version)",
+            "filename": "p11.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p11.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p11.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1782294636.3000898
+        },
+        {
+            "title": "Next Greater Element 2",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p2.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p2.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781452943.911193
+        },
+        {
+            "title": "Next smaller element",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p3.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p3.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781453527.3297977
+        },
+        {
+            "title": "Previous Smaller Element",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p4.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p4.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781453996.6550133
+        },
+        {
+            "title": "Trapping Rain water",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p5.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p5.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781639370.3961332
+        },
+        {
+            "title": "Sum of subarray minimums",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p6.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p6.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781752668.3141785
+        },
+        {
+            "title": "Asteroid collision",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p7.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p7.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781810295.3679292
+        },
+        {
+            "title": "Sum of Subarray Ranges",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p8.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p8.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781950640.4660654
+        },
+        {
+            "title": "Remove K digits",
+            "filename": "p9.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\monotonic_stack\\p9.py",
+            "rel_path": "stack_n_queue\\monotonic_stack\\p9.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "monotonic_stack",
+            "last_modified": 1781941225.3304994
+        },
+        {
+            "title": "Implement Queue using array",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\q_basics\\p1.py",
+            "rel_path": "stack_n_queue\\q_basics\\p1.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "q_basics",
+            "last_modified": 1781236281.7842567
+        },
+        {
+            "title": "Implement Queue using stack",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\q_basics\\p2.py",
+            "rel_path": "stack_n_queue\\q_basics\\p2.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "q_basics",
+            "last_modified": 1781272531.8803325
+        },
+        {
+            "title": "Implement Queue using Linked list",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\q_basics\\p3.py",
+            "rel_path": "stack_n_queue\\q_basics\\p3.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "q_basics",
+            "last_modified": 1781277078.7090797
+        },
+        {
+            "title": "Stack using arrays",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\stk_basics\\p1.py",
+            "rel_path": "stack_n_queue\\stk_basics\\p1.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "stk_basics",
+            "last_modified": 1781165918.3694763
+        },
+        {
+            "title": "Stack using queue",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\stk_basics\\p2.py",
+            "rel_path": "stack_n_queue\\stk_basics\\p2.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "stk_basics",
+            "last_modified": 1781166003.8462687
+        },
+        {
+            "title": "stack using linked list",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\stk_basics\\p3.py",
+            "rel_path": "stack_n_queue\\stk_basics\\p3.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "stk_basics",
+            "last_modified": 1781171250.6175292
+        },
+        {
+            "title": "Balanced Paranthesis",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\stk_basics\\p4.py",
+            "rel_path": "stack_n_queue\\stk_basics\\p4.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "stk_basics",
+            "last_modified": 1781185780.803431
+        },
+        {
+            "title": "Minimum Stack",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\stack_n_queue\\stk_basics\\p5.py",
+            "rel_path": "stack_n_queue\\stk_basics\\p5.py",
+            "main_topic": "stack_n_queue",
+            "sub_topic": "stk_basics",
+            "last_modified": 1781199626.6449902
         },
         {
             "title": "Remove Outermost parentheses",
@@ -1214,6 +2264,86 @@
             "last_modified": 1778744528.4590068
         },
         {
+            "title": "Minimum number of bracket reversals needed to make ana expression balanced",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p1.py",
+            "rel_path": "strings\\hard\\p1.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778853218.2887156
+        },
+        {
+            "title": "Count and say sequence",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p2.py",
+            "rel_path": "strings\\hard\\p2.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778864369.3994143
+        },
+        {
+            "title": "STRING HASHING (POLYNOMIAL ROLLING HASH)",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p3.py",
+            "rel_path": "strings\\hard\\p3.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778901104.1800086
+        },
+        {
+            "title": "Rabin karp",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p4.py",
+            "rel_path": "strings\\hard\\p4.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778908109.4340966
+        },
+        {
+            "title": "Knutt Morris Pratt (KMP)",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p5.py",
+            "rel_path": "strings\\hard\\p5.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778902833.588787
+        },
+        {
+            "title": "Z - algorithm",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p6.py",
+            "rel_path": "strings\\hard\\p6.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778904231.834867
+        },
+        {
+            "title": "def solve(s: str) -> str:",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p7.py",
+            "rel_path": "strings\\hard\\p7.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778904925.8101606
+        },
+        {
+            "title": "Longest Happy Prefix",
+            "filename": "p8.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\hard\\p8.py",
+            "rel_path": "strings\\hard\\p8.py",
+            "main_topic": "strings",
+            "sub_topic": "hard",
+            "last_modified": 1778914982.039203
+        },
+        {
             "title": "Sort characters by frequency",
             "filename": "p1.py",
             "extension": ".py",
@@ -1241,7 +2371,87 @@
             "rel_path": "strings\\medium\\p3.py",
             "main_topic": "strings",
             "sub_topic": "medium",
-            "last_modified": 1778750722.2711096
+            "last_modified": 1778771768.6566138
+        },
+        {
+            "title": "String to Integer (atoi)",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p4.py",
+            "rel_path": "strings\\medium\\p4.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778772976.9044404
+        },
+        {
+            "title": "Count number of substrings that contain exactly k distinct characters",
+            "filename": "p5.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p5.py",
+            "rel_path": "strings\\medium\\p5.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778774610.9877925
+        },
+        {
+            "title": "Longest Palindromic Substring",
+            "filename": "p6.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p6.py",
+            "rel_path": "strings\\medium\\p6.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778840088.0787644
+        },
+        {
+            "title": "Sum of Beauty of all substring",
+            "filename": "p7.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\strings\\medium\\p7.py",
+            "rel_path": "strings\\medium\\p7.py",
+            "main_topic": "strings",
+            "sub_topic": "medium",
+            "last_modified": 1778843302.9350686
+        },
+        {
+            "title": "Longest Substring Without Repeating Characters",
+            "filename": "p1.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\two_ptrs\\medium\\p1.py",
+            "rel_path": "two_ptrs\\medium\\p1.py",
+            "main_topic": "two_ptrs",
+            "sub_topic": "medium",
+            "last_modified": 1782384433.2586422
+        },
+        {
+            "title": "Max Consecutive Ones III",
+            "filename": "p2.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\two_ptrs\\medium\\p2.py",
+            "rel_path": "two_ptrs\\medium\\p2.py",
+            "main_topic": "two_ptrs",
+            "sub_topic": "medium",
+            "last_modified": 1782386144.425485
+        },
+        {
+            "title": "Fruit into baskets",
+            "filename": "p3.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\two_ptrs\\medium\\p3.py",
+            "rel_path": "two_ptrs\\medium\\p3.py",
+            "main_topic": "two_ptrs",
+            "sub_topic": "medium",
+            "last_modified": 1782386295.8931916
+        },
+        {
+            "title": "def get_primes(m: int) -> list[int]:",
+            "filename": "p4.py",
+            "extension": ".py",
+            "abs_path": "C:\\Users\\rohit\\OneDrive\\Desktop\\Code\\DSA\\PYTHON\\two_ptrs\\medium\\p4.py",
+            "rel_path": "two_ptrs\\medium\\p4.py",
+            "main_topic": "two_ptrs",
+            "sub_topic": "medium",
+            "last_modified": 1782386892.1038742
         }
     ]
 }

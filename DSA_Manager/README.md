@@ -53,6 +53,3 @@ Usually installed by default. If not, add the VS Code `bin` folder to your envir
 - `main.py`: The core logic and terminal UI.
 - `requirements.txt`: Necessary libraries (`textual`, `thefuzz`, `rich`).
 - `.problem_index.json`: Local cache of your problems (generated on first run).
-
-## 📝 License
-MIT

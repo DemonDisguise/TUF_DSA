@@ -15,8 +15,8 @@ SUPPORTED_EXTENSIONS = {
     ".ts"
 }
 
-
 IGNORE_FOLDERS = {
+    "DSA_Manager",
     ".git",
     "node_modules",
     "__pycache__",
