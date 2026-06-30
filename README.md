@@ -29,3 +29,8 @@ Z algorithm - prefix matching problems
 # Two pointers
 - at least K = total substrings - at most (K-1)
 - no. of substrings equal to k = atmost(k) - atmost(k - 1)
+
+# Heaps
+- heapq module in python only implements min heap
+- negate the numbers while pushing into heap and negate them back while popping to get the value. This works as max heap.
+- Max heap is implemented in heapq from Python 3.14 where you can use any of the heapq functions you used normally with _max suffix. 
