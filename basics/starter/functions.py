@@ -1,6 +1,5 @@
 # Functions
 
-from typing import List
 # Python uses pass-by-object reference (call by sharing)
 
 # Pass by value (behavior with immutable objects)
@@ -27,11 +26,11 @@ When you modify them:
     - Changes are visible outside the function
 """
 
-def change_lst(lst: List) -> None:
+def change_lst(lst: list) -> None:
     lst.append(4)
     print(f"Inside function: {lst}")
 
-nums: List[int] = [1, 2, 3]
+nums: list[int] = [1, 2, 3]
 change_lst(nums)
 print(f"Outside function: {nums}")
 

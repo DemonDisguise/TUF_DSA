@@ -1,11 +1,10 @@
 # Top K frequent elements
 """ Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order. """
 
-from typing import List
 import heapq
 from collections import Counter
 
-def solve(arr: List[int], k: int) -> List[int]:
+def solve(arr: list[int], k: int) -> list[int]:
     freq = Counter(arr)
     
     min_heap = []
@@ -20,14 +19,14 @@ def solve(arr: List[int], k: int) -> List[int]:
     return res
 
 """ 
-def solve(arr: List[int], k: int) -> List[int]:
+def solve(arr: list[int], k: int) -> list[int]:
     freq = Counter(arr)
     return [num for num, _ in heapq.nlargest(k, freq.items(), key=lambda x:x[1])]
 """
     
 # Optimal - O(n)
 """ 
-def solve(arr: List[int], k: int) -> List[int]:
+def solve(arr: list[int], k: int) -> list[int]:
     freq = Counter(arr)
     n = len(arr)
     

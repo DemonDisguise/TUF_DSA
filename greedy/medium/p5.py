@@ -3,10 +3,9 @@
 Find the number of jobs done and the maximum profit that can be obtained. 
 Each job takes a single unit of time and only one job can be performed at a time """
 
-from typing import List
 import sys
 
-def solve(jobs: List[tuple[int]]) -> tuple[int]:
+def solve(jobs: list[tuple[int]]) -> tuple[int]:
     max_deadline = max(job[1] for job in jobs)
     
     jobs.sort(key=lambda x: x[2], reverse=True)

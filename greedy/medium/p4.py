@@ -4,9 +4,8 @@ We need to find the minimum number of platforms needed at the railway station so
 for 9:00 write it as 900, 12:30 as 1230
 """
 
-from typing import List
 
-def solve(arrivals: List[int], departures: List[int]) -> int:
+def solve(arrivals: list[int], departures: list[int]) -> int:
     arrivals.sort()
     departures.sort()     
 

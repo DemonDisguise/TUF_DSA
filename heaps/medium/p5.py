@@ -1,17 +1,16 @@
 # Replace elements by its rank in the array
 
-from typing import List
 import heapq
 
 # This is the optimal solution but can be solved using heaps as well
-""" def solve(arr: List[int]) -> List[int]:
+""" def solve(arr: list[int]) -> list[int]:
     sorted_unique = sorted(set(arr))
     rank = {num: i + 1 for i, num in enumerate(sorted_unique)}
     return [rank[x] for x in arr]
  """
 
 # Heap solution
-def solve(arr: List[int]) -> List[int]:
+def solve(arr: list[int]) -> list[int]:
     if not arr:
         return []
     

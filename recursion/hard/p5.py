@@ -3,7 +3,6 @@
 # every row and col 1 queen
 # none of the queens attack each other
 
-import sys
 
 def solve(n):
     res = []

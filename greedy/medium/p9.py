@@ -1,10 +1,9 @@
 # Merge Intervals
 """ Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input. """
 
-from typing import List
 import sys
 
-def solve(intervals: List[List[int]]) -> List[List[int]]:
+def solve(intervals: list[list[int]]) -> list[list[int]]:
     intervals.sort()
     res = []
     

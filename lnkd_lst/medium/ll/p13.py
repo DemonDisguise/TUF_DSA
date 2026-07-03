@@ -1,6 +1,6 @@
 # Find intersection of two linked lists
 
-from lnkd_lst.ll import SLL, Node
+from lnkd_lst.ll import SLL
 
 def solve(root1, root2):
     if not root1 or not root2: return None

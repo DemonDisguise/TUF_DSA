@@ -1,6 +1,6 @@
 # Reverse a linked list
 
-from lnkd_lst.ll import Node, SLL
+from lnkd_lst.ll import SLL
 
 def solve(root):
     prev = None

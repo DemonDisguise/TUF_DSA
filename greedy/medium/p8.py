@@ -4,10 +4,9 @@ Insert newInterval into intervals such that intervals is still sorted in ascendi
 Return intervals after the insertion.
 Note that you don't need to modify intervals in-place. You can make a new array and return it. """
 
-from typing import List
 import sys
 
-def solve(intervals: List[List[int]], new_interval: List[int]) -> List[List[int]]:
+def solve(intervals: list[list[int]], new_interval: list[int]) -> list[list[int]]:
     n = len(intervals)
     res = []
     i = 0

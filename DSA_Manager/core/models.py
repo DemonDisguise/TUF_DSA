@@ -1,5 +1,4 @@
 from dataclasses import dataclass, asdict
-from typing import Dict
 
 
 @dataclass
@@ -17,11 +16,11 @@ class Problem:
 
     last_modified: float
 
-    def to_dict(self) -> Dict:
+    def to_dict(self) -> dict:
 
         return asdict(self)
 
     @classmethod
-    def from_dict(cls, data: Dict):
+    def from_dict(cls, data: dict):
 
         return cls(**data)

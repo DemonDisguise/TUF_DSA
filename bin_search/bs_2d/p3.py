@@ -5,9 +5,8 @@
 # 3 6 9 16 22
 # 10 13 14 17 24
 # 18 21 23 26 30
-from typing import List
 
-def solve(n: int, m: int, mtrx: List[List[int]], target: int) -> List[int]:
+def solve(n: int, m: int, mtrx: list[list[int]], target: int) -> list[int]:
     row, col = 0, m - 1 # or row = n - 1, col = 0
     
     while row < n and col >= 0:

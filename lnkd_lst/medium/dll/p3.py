@@ -1,6 +1,6 @@
 # Remove duplicates from sorted DLL
 
-from lnkd_lst.dll import Node, DLL
+from lnkd_lst.dll import DLL
 
 def solve(root):
     if not root or not root.next:

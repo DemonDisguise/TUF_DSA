@@ -1,11 +1,10 @@
 # Merge K sorted lists
 
 from lnkd_lst.ll import Node, SLL
-from typing import List
 import sys
 import heapq
 
-def solve(arr: List[Node]) -> SLL:
+def solve(arr: list[Node]) -> SLL:
     min_heap = []
     
     for i, node in enumerate(arr):

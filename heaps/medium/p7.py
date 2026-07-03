@@ -1,11 +1,10 @@
 # Task scheduler with variable cooldown
 
 from collections import Counter, deque
-from typing import Dict, List
 import heapq
 
 
-def solve(tasks: List[str], cooldown: Dict[str, int]) -> int:
+def solve(tasks: list[str], cooldown: dict[str, int]) -> int:
     freq = Counter(tasks)
 
     max_heap = [(count, task) for task, count in freq.items()]

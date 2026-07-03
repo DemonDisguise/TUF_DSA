@@ -3,7 +3,6 @@
 # quickly linking a number of mappings so they can be treated as a single unit. It is often faster than creating a new dictionary and running multiple update() calls
 
 from collections import ChainMap
-from typing import ChainMap
 
 # local -> globals -> builtins
 # underlying mappings are stored in a list.

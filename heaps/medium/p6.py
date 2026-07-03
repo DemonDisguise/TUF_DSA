@@ -2,11 +2,10 @@
 """  You are given a list of tasks represented by uppercase English letters ('A' to 'Z'), and an integer n representing a cooldown interval between two same tasks. Each task takes exactly 1 CPU interval to complete. Tasks can be executed in any order, but identical tasks must be separated by at least n intervals, during which the CPU may remain idle or execute other tasks.
 Return the minimum number of CPU intervals required to complete all the tasks . """
 
-from typing import List
 import heapq
 from collections import Counter
 
-def solve(tasks: List[str], n: int) -> int:
+def solve(tasks: list[str], n: int) -> int:
     freq = Counter(tasks)
     
     max_heap = [count for count in freq.values()]  

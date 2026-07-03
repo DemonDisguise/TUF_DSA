@@ -5,9 +5,8 @@ There must be at least one candy for every child.
 Kids whose scores are higher than their neighbours receive more candies than their neighbours.
 Return the minimum number of candies needed to distribute among children. """
 
-from typing import List
 
-def solve(ratings: List[int]) -> int:
+def solve(ratings: list[int]) -> int:
     n = len(ratings)
     total_sum = 1
     i = 1

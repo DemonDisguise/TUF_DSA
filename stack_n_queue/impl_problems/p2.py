@@ -3,7 +3,6 @@
 
 The span Sᵢ for a specific day i is defined as the maximum number of consecutive previous days (including the current day) for which the stock price was less than or equal to the price on day i. """
 
-from typing import List
 
 class StockSpanner:
     def __init__(self):
@@ -19,7 +18,7 @@ class StockSpanner:
         self.stk.append((price, span))
         return span
 
-def solve(arr: List[int]) -> List[int]:
+def solve(arr: list[int]) -> list[int]:
     s = StockSpanner()
     res = []
     for i in arr:

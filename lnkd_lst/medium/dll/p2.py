@@ -1,6 +1,6 @@
 # Find pairs with given sum in doubly linked list
 
-from lnkd_lst.dll import Node, DLL
+from lnkd_lst.dll import DLL
 
 def solve(root, sm):
     if not root and not root.next:

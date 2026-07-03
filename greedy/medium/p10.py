@@ -1,10 +1,9 @@
 # Non-overlapping intervals
 # Given an array of N intervals in the form of (start[i], end[i]), where start[i] is the starting point of the interval and end[i] is the ending point of the interval, return the minimum number of intervals that need to be removed to make the remaining intervals non-overlapping.
 
-from typing import List
 import sys
 
-def solve(intervals: List[List[int]]) -> int:
+def solve(intervals: list[list[int]]) -> int:
     intervals.sort(key=lambda x: x[1])
 
     end = intervals[0][1]

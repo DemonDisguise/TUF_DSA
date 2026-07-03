@@ -1,10 +1,9 @@
 # Maximum Sum Combination
 """ Given two integer arrays nums1 and nums2 and an integer k, return the maximum k valid sum combinations from all possible sum combinations using the elements of nums1 and nums2. A valid sum combination is made by adding one element from nums1 and one element from nums2. Return the answer in non-increasing order. """
 
-from typing import List
 import heapq
 
-def solve(arr1: List[int], arr2: List[int], k: int) -> List[int]:
+def solve(arr1: list[int], arr2: list[int], k: int) -> list[int]:
     n = len(arr1)
     m = len(arr2)
     

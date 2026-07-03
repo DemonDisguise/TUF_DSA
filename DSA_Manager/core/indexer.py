@@ -2,7 +2,6 @@ import json
 import os
 import time
 
-from typing import List, Optional
 
 from core.models import Problem
 
@@ -16,7 +15,7 @@ CACHE_FILE = os.path.join(
 class Indexer:
 
     @staticmethod
-    def save(problems: List[Problem]):
+    def save(problems: list[Problem]):
 
         os.makedirs("cache", exist_ok=True)
 
@@ -43,7 +42,7 @@ class Indexer:
             )
 
     @staticmethod
-    def load() -> Optional[List[Problem]]:
+    def load() -> list[Problem] | None:
 
         if not os.path.exists(CACHE_FILE):
 

@@ -1,7 +1,6 @@
 import os
 import re
 
-from typing import List
 
 from core.models import Problem
 
@@ -89,7 +88,7 @@ class Scanner:
 
         return "Root", "General"
 
-    def scan(self) -> List[Problem]:
+    def scan(self) -> list[Problem]:
 
         problems = []
 

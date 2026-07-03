@@ -1,6 +1,5 @@
 # Arrays basics
 
-from typing import List, Union
 import array
 # Why are arrays 0-indexed
 """ 
@@ -14,9 +13,9 @@ import array
 - use pop(), remove() for removing
 """
 # For true, fixed-size, homogeneous arrays use array module - memory-efficient
-my_list: List[Union[int, float, tuple, str, bool]] = [10, "hello", 10.4, True]
+my_list: list[int | float | tuple | str | bool] = [10, "hello", 10.4, True]
 
-list1: List[int] = [1, 2, 3, 4]
+list1: list[int] = [1, 2, 3, 4]
 print(list1[0])
 list1[0] = 0
 print(list1)

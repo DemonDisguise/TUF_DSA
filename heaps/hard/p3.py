@@ -6,7 +6,7 @@ Design a class `KthLargest` that maintains the kth largest element in a stream o
 
 Implement the following methods:
 
-1. `__init__(self, k: int, nums: List[int])`
+1. `__init__(self, k: int, nums: list[int])`
    - Initializes the object with the integer `k` and the initial list of numbers `nums`.
 
 2. `add(self, val: int) -> int`
@@ -18,7 +18,6 @@ Note:
 - It is **not** the kth distinct largest element; duplicate values are counted separately.
 """
 
-from typing import List
 import heapq
 
 class KthLargest:
@@ -35,14 +34,14 @@ class KthLargest:
             element in the current stream.
     """
 
-    def __init__(self, k: int, nums: List[int]):
+    def __init__(self, k: int, nums: list[int]):
         """
         Initialize the KthLargest object.
 
         Args:
             k (int):
                 The position of the largest element to maintain.
-            nums (List[int]):
+            nums (list[int]):
                 The initial stream of integers.
         """
         self.k = k

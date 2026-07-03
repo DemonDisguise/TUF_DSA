@@ -1,6 +1,5 @@
 # Data types
 
-from typing import List, Union, Set, FrozenSet
 # Everything is a object in python 
 # That includes: numbers, strings, functions, classes, type themselves
 # int - unbounded
@@ -24,7 +23,7 @@ print(type(num)) # <class 'int'>
 # In python list can store anything not necessary it to be one data type 
 # Mutable
 # List
-arr1: List[Union[int, str, float]] = [1.38, "hello", 23]
+arr1: list[int | str | float] = [1.38, "hello", 23]
 arr2: list[int] = [1, 2, 3]
 
 # Tuple
@@ -43,11 +42,11 @@ print(marks.items())
 
 # set
 # mutable
-s1: Set[int] = {1, 2, 3}
+s1: set[int] = {1, 2, 3}
 
 # frozenset
 # immutable version of set
-s2: FrozenSet[int] = frozenset({1, 2, 3})
+s2: frozenset[int] = frozenset({1, 2, 3})
 
 # class
 class n:

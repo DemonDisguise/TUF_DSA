@@ -1,9 +1,8 @@
 # Jump Game 1
 """ Given an array where each element represents the maximum number of steps you can jump forward from that element, return true if we can reach the last index starting from the first index. Otherwise, return false. """
 
-from typing import List
 
-def solve(arr: List[int]) -> bool:
+def solve(arr: list[int]) -> bool:
     max_reach = 0
     
     for ind, num in enumerate(arr):

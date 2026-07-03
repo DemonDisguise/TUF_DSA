@@ -2,7 +2,6 @@
 # Elements are stored as dictionary keys and their counts are stored as dictionary values
 # Counts can be +ve, -ve or 0
 from collections import Counter
-from typing import Counter
 
 c: Counter[str] = Counter("sausage")
 print(c)

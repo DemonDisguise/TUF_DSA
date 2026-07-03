@@ -1,7 +1,6 @@
 # Design Twitter
 """ Create a simplified version of a social media platform similar to Twitter. Users should be able to post tweets, follow or unfollow other users, and view the 10 most recent tweets in their news feed. """
 
-from typing import List
 import heapq
 from collections import defaultdict
 
@@ -24,7 +23,7 @@ class Twitter:
         self.tweets[userId].append((self.time, tweetId))
         self.time += 1
 
-    def getNewsFeed(self, userId: int) -> List[int]:
+    def getNewsFeed(self, userId: int) -> list[int]:
         """
         Retrieve the 10 most recent tweet IDs in the user's news feed.
 

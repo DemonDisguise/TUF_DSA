@@ -1,6 +1,5 @@
 import re
 
-from typing import List
 
 from core.models import Problem
 
@@ -115,9 +114,9 @@ class SearchEngine:
     @staticmethod
     def search(
         query: str,
-        problems: List[Problem],
+        problems: list[Problem],
         mode: str = "all"
-    ) -> List[Problem]:
+    ) -> list[Problem]:
 
         if not query.strip():
 

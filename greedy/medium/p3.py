@@ -6,9 +6,8 @@ Your goal is to reach the last index of the array (nums[n - 1]) using the minimu
 Return the minimum number of jumps required to reach the last index.
 You can assume that it is always possible to reach the last index. """
 
-from typing import List
 
-def solve(arr: List[int]) -> int:
+def solve(arr: list[int]) -> int:
     l = r = 0
     n = len(arr)
     jumps = 0

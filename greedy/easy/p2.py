@@ -3,10 +3,9 @@
 
 Note: We can either take the item as a whole or break it into smaller units. """
 
-from typing import List
 import sys
 
-def solve(items: List[tuple[int, int]], capacity: int) -> float:
+def solve(items: list[tuple[int, int]], capacity: int) -> float:
     items.sort(key=lambda x: x[0] / x[1], reverse=True)
     
     curr_cap = 0

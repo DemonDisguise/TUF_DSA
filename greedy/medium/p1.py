@@ -3,10 +3,9 @@
  Find the maximum number of meetings that can be accommodated if only one meeting can happen in the room at a particular time. 
  Print the order in which these meetings will be performed. """
 
-from typing import List
 import sys
 
-def solve(meetings: List[tuple[int]]) -> List[int]:
+def solve(meetings: list[tuple[int]]) -> list[int]:
     ind_meetings = [(start, end, ind) for ind, (start, end) in enumerate(meetings, start=1)]
     meetings = [(start, end, ind) for ind, (start, end) in enumerate(meetings, start=1)]
     ind_meetings.sort(key=lambda x: x[1])

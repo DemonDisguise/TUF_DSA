@@ -2,9 +2,8 @@
 """Each lemonade costs $5. Given an array representing a queue of customers and the value of bills they hold, determine if it is possible to provide correct change to each customer. Customers can only pay with 5$, 10$ or 20$ bills and we initially do not have any change at hand. 
  Return true, if it is possible to provide correct change for each customer otherwise return false. """
 
-from typing import List
 
-def solve(bills: List[int]) -> bool:
+def solve(bills: list[int]) -> bool:
     fives, tens = 0, 0
     
     for bill in bills:

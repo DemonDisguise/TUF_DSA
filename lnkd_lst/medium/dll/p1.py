@@ -1,6 +1,6 @@
 # Reverse a Doubly Linked list
 
-from lnkd_lst.dll import DLL, Node
+from lnkd_lst.dll import DLL
 
 def solve(root):
     if not root or not root.next:
