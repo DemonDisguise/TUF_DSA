@@ -1,5 +1,6 @@
 # Binary Tree implementation
 
+from __future__ import annotations
 from collections.abc import Iterable
 from collections import deque
 
@@ -42,6 +43,7 @@ class BinaryTree:
         return self.serialize()
     
     def build(self, values: Iterable):
+        """Build the binary tree from the given Iterable"""
         if not values:
             self.root = None
             return 
@@ -153,8 +155,214 @@ class BinaryTree:
             a + " " * len(label) + b for a, b in zip(left_lines, right_lines)
         ]
         return lines, left_w + len(label) + right_w, max(left_h, right_h) + 2, left_w + len(label) // 2
+    
+    def preorder(self) -> list[int]:
+        """Root, Left, Right"""
+        preorder_traversal = []
+        
+        def _walk(node: TreeNode | None) -> None:
+            if node is None:
+                return
+            preorder_traversal.append(node.val)
+            _walk(node.left)
+            _walk(node.right)
+        
+        _walk(self.root)
+        return preorder_traversal
 
+    def inorder(self) -> list[int]:
+        """Left, Root, Right"""
+        inorder_traversal = []
+        
+        def _walk(self, node: TreeNode | None) -> None:
+            if not node:
+                return
+            _walk(node.left)
+            inorder_traversal.append(node.val)
+            _walk(node.right)
+        
+        _walk(self.root)
+        return inorder_traversal
+
+    def postorder(self) -> list[int]:
+        """Left, Right, Root"""
+        postorder_traversal = []
+        
+        def _walk(self, node: TreeNode | None) -> None:
+            if not node:
+                return
+            _walk(node.left)
+            _walk(node.right)
+            postorder_traversal.append(node.val)
+        
+        _walk(self.root)
+        return postorder_traversal
+    
+    def preorder_iter(self) -> list[int]:
+        """Root, Left, Right"""
+        if self.root is None:
+            return []
+        
+        preorder_traversal = []
+        stack = [self.root]
+        
+        while stack:
+            node = stack.pop()
+            preorder_traversal.append(node.val)
+            if node.right is not None:
+                stack.append(node.right)
+            if node.left is not None:
+                stack.append(node.left)
+            
+        return preorder_traversal
+
+    def inorder_iter(self) -> list[int]:
+        """Left, Root, Right"""
+        inorder_traversal = []
+        stack = []
+        node = self.root
+        
+        while stack or node is not None:
+            while node is not None:
+                stack.append(node)
+                node = node.left
+            
+            node = stack.pop()
+            inorder_traversal.append(node.val)
+            node = node.right
+        
+        return inorder_traversal  
+    
+    def postorder_iter(self) -> list[int]:
+        """Left, Right, Root"""
+        if not self.root:
+            return []
+        postorder_traversal = []  
+        stack = [self.root]
+        last_visited = None
+        
+        while stack:
+            node = stack[-1]
+            
+            if (node.left is None and node.right is None) or (last_visited is not None and last_visited in (node.left, node.right)):
+                postorder_traversal.append(node.val)
+                stack.pop()
+                last_visited = node
+            else:
+                if node.right is not None:
+                    stack.append(node.right)
+                if node.left is not None:
+                    stack.append(node.left)
+        
+        return postorder_traversal  
+    
+    def levelorder(self) -> list[int]:
+        """Top to bottom, left to right, level by level"""      
+
+        if self.root is None:
+            return []
+        
+        levelorder_traversal = []
+        queue = deque([self.root])
+        
+        while queue:
+            node = queue.popleft()
+            levelorder_traversal.append(node.val)
+            if node.left is not None:
+                queue.append(node.left)
+            if node.right is not None:
+                queue.append(node.right)
+
+        return levelorder_traversal
+    
+    def height(self) -> int:
+        """Number of edges on the longest root-to-leaf path. Empty tree: -1"""
+
+        def _walk(node: TreeNode | None) -> int:
+            if node is None:
+                return -1
+            return 1 + max(_walk(node.left), _walk(node.right))
+        
+        return _walk(self.root())
+    
+    def count_nodes(self) -> int:
+        """Total number of nodes in the tree"""
+        def _count(node: TreeNode | None) -> int:
+            if node is None:
+                return 0
+            
+            return 1 + _count(node.left) + _count(node.right)
+        return _count(self.root)
+    
+    def count_leaves(self) -> int:
+        """Number of nodes with no children"""
+        def _count(node: TreeNode | None) -> int:
+            if node is None:
+                return 0
+            if node.left is None and node.right is None:
+                return 1
+            return _count(node.left) + _count(node.right)
+
+        return _count(self.root)
+    
+    def find(self, value: int) -> TreeNode:
+        """Finds the node with the value in the tree"""
+        def _search(node: TreeNode | None):
+            if node is None: 
+                return None
+            if node.val == value:
+                return node
+            left = _search(node.left)
+            if left:
+                return left
+            return _search(node.right)
+        return _search(self.root)
+    
+    def is_balanced(self) -> bool:
+        """Checks if the tree is balanced tree"""
+
+        def _check(node: TreeNode | None) -> tuple[bool, int]:
+            if node is None:
+                return True, -1
+            
+            left_balanced, left_h = _check(node.left)
+            if not left_balanced:
+                return False, 0
+            
+            right_balanced, right_h = _check(node.right)
+            if not right_balanced:
+                return False, 0
+            
+            balanced = abs(left_h = right_h) <= 1
+            height = 1 + max(left_h, right_h)
+            return balanced, height
+        
+        is_bal, _ = _check(self.root)
+        return is_bal
+    
+    def diameter(self) -> int:
+        """Longest path between any two nodes, measured in edges."""
+        best = 0
+        
+        def _height(node: TreeNode | None) -> int:
+            nonlocal best
+            if node is None:
+                return -1
+            
+            left_h = _height(node.left)
+            right_h = _height(node.right)
+            
+            best = max(best, left_h + right_h + 2)
+            return 1 + max(left_h, right_h)
+        
+        _height(self.root)
+        return best
+        
 if __name__ == "__main__":
     tree = BinaryTree.deserialize(input())
     tree.pprint()
     print(tree)
+    print(*tree.preorder_iter())
+    print(*tree.postorder_iter())
+    print(*tree.inorder_iter())
+    print(*tree.levelorder())
