@@ -666,6 +666,12 @@ Serialization.
 
 ---
 
+# Make a Unique Binary Tree
+
+- Inorder + (Postorder or Preorder) traversal
+
+---
+
 # Binary Tree vs BST
 
 Binary Tree
