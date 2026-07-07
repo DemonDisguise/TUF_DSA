@@ -174,7 +174,7 @@ class BinaryTree:
         """Left, Root, Right"""
         inorder_traversal = []
         
-        def _walk(self, node: TreeNode | None) -> None:
+        def _walk(node: TreeNode | None) -> None:
             if not node:
                 return
             _walk(node.left)
@@ -188,7 +188,7 @@ class BinaryTree:
         """Left, Right, Root"""
         postorder_traversal = []
         
-        def _walk(self, node: TreeNode | None) -> None:
+        def _walk(node: TreeNode | None) -> None:
             if not node:
                 return
             _walk(node.left)
@@ -283,7 +283,7 @@ class BinaryTree:
                 return -1
             return 1 + max(_walk(node.left), _walk(node.right))
         
-        return _walk(self.root())
+        return _walk(self.root)
     
     def count_nodes(self) -> int:
         """Total number of nodes in the tree"""
@@ -333,7 +333,7 @@ class BinaryTree:
             if not right_balanced:
                 return False, 0
             
-            balanced = abs(left_h = right_h) <= 1
+            balanced = abs(left_h - right_h) <= 1
             height = 1 + max(left_h, right_h)
             return balanced, height
         
@@ -359,10 +359,37 @@ class BinaryTree:
         return best
         
 if __name__ == "__main__":
-    tree = BinaryTree.deserialize(input())
-    tree.pprint()
-    print(tree)
-    print(*tree.preorder_iter())
-    print(*tree.postorder_iter())
-    print(*tree.inorder_iter())
-    print(*tree.levelorder())
+    # --- BinaryTree sanity checks ---
+    bt = BinaryTree.deserialize("3 9 20 N N 15 7")
+
+    assert bt.preorder() == [3, 9, 20, 15, 7], f"preorder failed: {bt.preorder()}"
+    assert bt.inorder() == [9, 3, 15, 20, 7], f"inorder failed: {bt.inorder()}"
+    assert bt.postorder() == [9, 15, 7, 20, 3], f"postorder failed: {bt.postorder()}"
+    assert bt.levelorder() == [3, 9, 20, 15, 7], f"levelorder failed: {bt.levelorder()}"
+
+    assert bt.preorder() == bt.preorder_iter(), "preorder vs preorder_iter mismatch"
+    assert bt.inorder() == bt.inorder_iter(), "inorder vs inorder_iter mismatch"
+    assert bt.postorder() == bt.postorder_iter(), "postorder vs postorder_iter mismatch"
+
+    assert bt.height() == 2, f"height failed: {bt.height()}"         
+    assert bt.count_nodes() == 5, f"count_nodes failed: {bt.count_nodes()}"
+    assert bt.count_leaves() == 3, f"count_leaves failed: {bt.count_leaves()}"
+    assert bt.is_balanced() is True, f"is_balanced failed: {bt.is_balanced()}"  
+    assert bt.diameter() == 3, f"diameter failed: {bt.diameter()}"
+
+    assert bt.find(15) is not None and bt.find(15).val == 15, "find failed to locate existing value"
+    assert bt.find(100) is None, "find should return None for missing value"
+
+
+    round_trip = BinaryTree.deserialize(bt.serialize())
+    assert round_trip.levelorder() == bt.levelorder(), "serialize/deserialize round trip failed"
+    assert round_trip.preorder() == bt.preorder(), "serialize/deserialize round trip failed (preorder check)"
+
+    empty = BinaryTree()
+    assert bool(empty) is False, "__bool__ failed on empty tree"
+    assert bool(bt) is True, "__bool__ failed on non-empty tree"
+    assert empty.preorder() == [], "preorder on empty tree should be []"
+    assert empty.height() == -1, f"height on empty tree should be -1, got {empty.height()}"
+
+    print("BinaryTree: all checks passed.")
+    
