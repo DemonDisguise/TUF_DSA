@@ -15,6 +15,8 @@ class TreeNode:
     
     def __repr__(self):
         return f"{self.val}"
+    
+    __str__ = __repr__
 
 class BinaryTree:
     """A data structure where each node has at most two children.
@@ -41,6 +43,8 @@ class BinaryTree:
     
     def __repr__(self):
         return self.serialize()
+    
+    __str__ = __repr__
     
     def build(self, values: Iterable):
         """Build the binary tree from the given Iterable"""
@@ -114,47 +118,60 @@ class BinaryTree:
         print("\n".join(lines))
 
     def _pprint_helper(self, node: TreeNode | None):
-        """Returns (lines, width, height, root_x) for the subtree at `node`.
-        root_x is the column of the node's own label within `lines`, so the
-        caller can align connector branches to it.
         """
-        if node is None:
-            return [], 0, 0, 0
-        
-        label = str(node.val)
-        
+        Recursively builds the tree layout from the bottom up.
+        Returns:
+            - lines: List of strings representing the visual rows of the subtree.
+            - width: Total width of the subtree block.
+            - height: Total height of the subtree block.
+            - middle: The column index where this node's label centers.
+        """
+        # Base Case: Leaf Node
         if node.left is None and node.right is None:
-            return [label], len(label), 1, len(label) // 2
-        
+            line = str(node.val)
+            width = len(line)
+            height = 1
+            middle = width // 2
+            return [line], width, height, middle
+
+        # Case 1: Only Left Child
         if node.right is None:
-            left_lines, left_w, left_h, left_x = self._pprint_helper(node.left)
-            first = (" " * (left_x + 1)) + label
-            second = (" " * left_x) + "/" + (" " * (left_w - left_x - 1))
-            lines = [first, second] + [l + " " * len(label) for l in left_lines]
-            return lines, left_w + len(label), left_h + 2, left_w + len(label) // 2
-        
+            lines, w, h, x = self._pprint_helper(node.left)
+            s = str(node.val)
+            u = len(s)
+            first_line = (x + 1) * ' ' + (w - x - 1) * ' ' + s
+            second_line = x * ' ' + '/' + (w - x - 1) * ' ' + u * ' '
+            shifted_lines = [line + u * ' ' for line in lines]
+            return [first_line, second_line] + shifted_lines, w + u, h + 2, w + u // 2
+
+        # Case 2: Only Right Child
         if node.left is None:
-            right_lines, right_w, right_h, right_x = self._pprint_helper(node.right)
-            first = label + (" " * right_x)
-            second = (" " * (len(label) + right_x - 1)) + "\\" + (" " * (right_w - right_x))
-            lines = [first, second] + [" " * len(label) + l for l in right_lines]
-            return lines, right_w + len(label), right_h + 2, len(label) // 2
-        
+            lines, w, h, x = self._pprint_helper(node.right)
+            s = str(node.val)
+            u = len(s)
+            first_line = s + x * ' ' + (w - x) * ' '
+            second_line = u * ' ' + x * ' ' + '\\' + (w - x - 1) * ' '
+            shifted_lines = [u * ' ' + line for line in lines]
+            return [first_line, second_line] + shifted_lines, w + u, h + 2, u // 2
+
+        # Case 3: Two Children
         left_lines, left_w, left_h, left_x = self._pprint_helper(node.left)
         right_lines, right_w, right_h, right_x = self._pprint_helper(node.right)
+        s = str(node.val)
+        u = len(s)
         
-        first = (" " * (left_x + 1)) + label + (" " * right_x)
-        second = (" " * left_x) + "/" + (" " * (left_w - left_x - 1 + len(label) + right_x)) + "\\" + (" " * (right_w - right_x - 1))
+        # Establish root and branch row tracking
+        first_line = (left_x + 1) * ' ' + (left_w - left_x - 1) * ' ' + s + right_x * ' ' + (right_w - right_x) * ' '
+        second_line = left_x * ' ' + '/' + (left_w - left_x - 1 + u + right_x) * ' ' + '\\' + (right_w - right_x - 1) * ' '
         
+        # Vertically pad the shorter subtree block so they zip together cleanly
         if left_h < right_h:
-            left_lines += [" " * left_w] * (right_h - left_h)
+            left_lines += [left_w * ' '] * (right_h - left_h)
         elif right_h < left_h:
-            right_lines += [" " * right_w] * (left_h - right_h)
-        
-        lines = [first, second] + [
-            a + " " * len(label) + b for a, b in zip(left_lines, right_lines)
-        ]
-        return lines, left_w + len(label) + right_w, max(left_h, right_h) + 2, left_w + len(label) // 2
+            right_lines += [right_w * ' '] * (left_h - right_h)
+            
+        zipped_lines = [a + u * ' ' + b for a, b in zip(left_lines, right_lines)]
+        return [first_line, second_line] + zipped_lines, left_w + right_w + u, max(left_h, right_h) + 2, left_w + u // 2
     
     def preorder(self) -> list[int]:
         """Root, Left, Right"""
@@ -305,7 +322,7 @@ class BinaryTree:
 
         return _count(self.root)
     
-    def find(self, value: int) -> TreeNode:
+    def find(self, value: int) -> TreeNode | None:
         """Finds the node with the value in the tree"""
         def _search(node: TreeNode | None):
             if node is None: 

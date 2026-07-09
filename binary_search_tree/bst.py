@@ -36,6 +36,62 @@ class BST(BinaryTree):
             curr = curr.left if value < curr.val else curr.right
         return None
 
+    def iterator(self) -> BSTIterator:
+        """Returns a lazy inorder iterator over this tree, O(h) space"""
+        return BSTIterator(self.root)
+
+class BSTIterator:
+    """Lazy inorder iterator over a BST - O(h) space"""
+    
+    def __init__(self, root: TreeNode | None, reverse: bool = False):
+        self.reverse = reverse
+        self._gen = self._inorder_gen(root)
+        self._next_val: int | None = self._advance()
+    
+    def _inorder_gen(self, root: TreeNode | None):
+        """
+        Generator of inorder of BST:
+        yields one value at a time instead of building a full list,
+        so the call stack is the only O(h) cost.
+        """
+        stack = []
+        curr = root
+        while stack or curr is not None:
+            while curr is not None:
+                stack.append(curr)
+                if self.reverse:
+                    curr = curr.right
+                else:
+                    curr = curr.left
+            curr = stack.pop()
+            yield curr.val
+            if self.reverse:
+                curr = curr.left
+            else:
+                curr = curr.right
+    
+    def _advance(self) -> int | None:
+        "Pull the next value from the underlying generator, or None if exhausted. The only place StopIteration from the generator itself is ever handled."
+        try:
+            return next(self._gen)
+        except StopIteration:
+            return None
+    
+    def has_next(self) -> bool:
+        """Returns if there is next value in the iterator or not"""
+        return self._next_val is not None
+    
+    def next(self) -> int:
+        """Return the next item from the iterator. If the iterator is exhausted will raise StopIteration"""
+        if self._next_val is None:
+            raise StopIteration("BSTIterator exhausted.")
+        val = self._next_val
+        self._next_val = self._advance()
+        return val
+    
+    def peek(self) -> int | None:
+        """Look at the next value without consuming it."""
+        return self._next_val
 
 if __name__ == "__main__":
     # --- BST sanity checks ---
