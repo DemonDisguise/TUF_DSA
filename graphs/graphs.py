@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 from collections import deque
-from collections.abc import Hashable, Iterable
+from collections.abc import Hashable, Iterable, Iterator
 
 
 class Graph:
@@ -136,9 +136,12 @@ class _UnionFind:
         self.rank: dict[Hashable, int] = {n: 0 for n in nodes}
     
     def find(self, x: Hashable) -> Hashable:
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])
-        return self.parent[x]
+        root = x
+        while self.parent[root] != root:
+            root = self.parent[root]
+        while self.parent[x] != root:
+            self.parent[x], x = root, self.parent[x]
+        return root
 
     def union(self, x: Hashable, y: Hashable) -> bool:
         root_x, root_y = self.find(x), self.find(y)
@@ -235,23 +238,29 @@ class DirectedGraph(Graph):
         visited: set[Hashable] = set()
         in_path: set[Hashable] = set()
 
-        def _dfs(node: Hashable) -> bool:
-            visited.add(node)
-            in_path.add(node)
-            for neighbor in self.adj[node]:
-                if neighbor in in_path:
-                    return True
-                if neighbor not in visited:
-                    if _dfs(neighbor):
-                        return True
-            in_path.remove(node)
-            return False
-        
         for start in self.adj:
-            if start not in visited:
-                if _dfs(start):
-                    return True
-        
+            if start in visited:
+                continue
+            stack: list[tuple[Hashable, "Iterator[Hashable]"]] = [(start, iter(self.adj[start]))]
+            visited.add(start)
+            in_path.add(start)
+
+            while stack:
+                node, neighbor_iter = stack[-1]
+                advanced = False
+                for neighbor in neighbor_iter:
+                    if neighbor in in_path:
+                        return True
+                    if neighbor not in visited:
+                        visited.add(neighbor)
+                        in_path.add(neighbor)
+                        stack.append((neighbor, iter(self.adj[neighbor])))
+                        advanced = True
+                        break
+                if not advanced:
+                    in_path.discard(node)
+                    stack.pop()
+
         return False
 
     def topological_sort(self) -> list[Hashable] | None:
@@ -281,30 +290,32 @@ class DirectedGraph(Graph):
         """DFS-based: postorder-append, then reverse."""
         visited: set[Hashable] = set()
         in_path: set[Hashable] = set()
-        result: list[Hashable] = set()
-        has_cycle = False
+        result: list[Hashable] = []
 
-        def _dfs(node: Hashable) -> None:
-            nonlocal has_cycle
-            visited.add(node)
-            in_path.add(node)
-            for neighbor in self.adj[node]:
-                if neighbor in in_path:
-                    has_cycle = True
-                    return
-                if neighbor not in visited:
-                    _dfs(neighbor)
-                    if has_cycle:
-                        return
-            in_path.remove(node)
-            result.append(node)
-        
         for start in self.adj:
-            if start not in visited:
-                _dfs(start)
-                if has_cycle:
-                    return None
-        
+            if start in visited:
+                continue
+            stack: list[tuple[Hashable, Iterator[Hashable]]] = [(start, iter(self.adj[start]))]
+            visited.add(start)
+            in_path.add(start)
+
+            while stack:
+                node, neighbor_iter = stack[-1]
+                advanced = False
+                for neighbor in neighbor_iter:
+                    if neighbor in in_path:
+                        return None  # cycle -- no valid topological order
+                    if neighbor not in visited:
+                        visited.add(neighbor)
+                        in_path.add(neighbor)
+                        stack.append((neighbor, iter(self.adj[neighbor])))
+                        advanced = True
+                        break
+                if not advanced:
+                    in_path.discard(node)
+                    result.append(node)
+                    stack.pop()
+
         return result[::-1]
     
     def reverse(self) -> DirectedGraph:
