@@ -4,6 +4,15 @@ from __future__ import annotations
 from collections import deque
 from collections.abc import Hashable, Iterable, Iterator
 
+""" visited/in_path use `set`, never `list`. `x in set` is O(1) (hashing);
+`x in list` is O(n) (linear scan) -- and since traversal checks
+membership once per edge, a list-backed visited would silently make
+the whole algorithm O(V*E) instead of O(V+E). The one exception is
+LeetCode-style problems with node labels guaranteed to be 0..n-1,
+where visited[node] (direct indexing, not membership search) is a
+different, equally-O(1) operation -- not available here, since this
+class supports arbitrary Hashable labels with no array position to map
+onto. """
 
 class Graph:
     """Base class for graphs, backed by adjacency list."""
@@ -13,7 +22,6 @@ class Graph:
         if edges is not None:
             for u, v in edges:
                 self.add_edge(u, v)
-
     
     def __repr__(self) -> str:
         lines = [f"{node}: {neighbours}" for node, neighbours in self.adj.items()]
@@ -157,6 +165,24 @@ class _UnionFind:
 class UndirectedGraph(Graph):
     """A graph where every edge is bidirectional"""   
 
+    @classmethod
+    def from_adj_matrix(cls, matrix: list[list[int]], node_names: list | None = None) -> UndirectedGraph:
+        n = len(matrix)
+        names = node_names if node_names is not None else list(range(n))
+        if len(names) != n:
+            raise ValueError(f"node_names length ({len(names)}) must match matrix size ({n})")
+    
+        graph = cls()
+        for name in names:
+            graph.add_node(name)
+        
+        for i in range(n):
+            for j in range(i + 1, n):
+                if matrix[i][j]:
+                    graph.add_edge(names[i], names[j])
+        
+        return graph
+    
     def add_edge(self, u: Hashable, v: Hashable) -> None:
         self.add_node(u)
         self.add_node(v)

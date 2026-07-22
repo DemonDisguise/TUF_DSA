@@ -72,6 +72,24 @@ input format for algorithms that need to **sort edges by weight**
 
 **The one thing every graph traversal needs that tree traversal never
 did: a `visited` set.**
+> **`visited` should almost always be a `set`, not a `list`.** `x in
+> some_list` is a linear scan — O(n) — while `x in some_set` is O(1) on
+> average via hashing. Since a traversal calls `neighbor not in visited`
+> once per edge examined, a list-backed visited silently degrades the
+> whole algorithm from O(V+E) to O(V·E) in the worst case — not a minor
+> slowdown, a different complexity class entirely.
+>
+> The one exception: if node labels are guaranteed to be a clean,
+> contiguous range starting at 0 (common on LeetCode specifically),
+> `visited = [False] * n` with **direct indexing** (`visited[node]`, not
+> `node in visited`) is equally O(1) — you're not searching, you're doing
+> array arithmetic straight to the position. That's a genuinely different
+> operation from membership search, and it's only available when labels
+> map cleanly onto array positions. A `Graph` class built for arbitrary
+> `Hashable` node labels (arbitrary strings, gapped IDs, mixed types) has
+> no such mapping to exploit, so `set` is the only correct choice there,
+> not just the safer one.
+
 > Why: a tree can never revisit a node during traversal — there's exactly
 > one path down from the root, so recursion naturally terminates. A graph
 > can have cycles, or two different paths converging on the same node
