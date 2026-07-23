@@ -239,8 +239,3 @@ What they *do* notice:
   you're not precious about manual spacing (letting the tool handle line
   length, quote style, etc.) reads as someone who's worked on a real team
   before.
-
-The specific PEP 8 numbers (79 chars, two blank lines) are worth knowing
-exist and why — but in practice, "I follow whatever the project's linter
-enforces" is a completely correct answer to "do you know PEP 8," and
-often the more senior-sounding one.
